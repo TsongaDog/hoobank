@@ -24,10 +24,14 @@ export const Billing = () => {
         </p>
         <div className={`flex gap-[33px]`}>
           <button>
-            <img src={apple} alt="apple" className="h-[62px] w-[208px]" />
+            <a href="https://www.apple.com/app-store/" target="_blank">
+              <img src={apple} alt="apple" className="h-[62px] w-[208px]" />
+            </a>
           </button>
           <button>
-            <img src={google} alt="google" className="h-[62px] w-[208px]" />
+            <a href="https://play.google.com/store/games" target="_blank">
+              <img src={google} alt="google" className="h-[62px] w-[208px]" />
+            </a>
           </button>
         </div>
       </div>
