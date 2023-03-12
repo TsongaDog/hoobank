@@ -10,7 +10,7 @@ export const Stats = () => {
         {stats.map((stat) => (
           <div
             key={stat.id}
-            className="flex flex-1 flex-col items-center justify-center gap-[20px] md:flex-row"
+            className="flex flex-1 select-none flex-col items-center justify-center gap-[20px] md:flex-row"
           >
             <div className={styles.statsValue}>{stat.value}</div>
             <div className={styles.statsTitle}>{stat.title}</div>

@@ -17,7 +17,7 @@ const App = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-full overflow-hidden bg-primary font-poppins text-dimWhite">
+    <div className="w-full overflow-hidden bg-primary font-poppins text-dimWhite selection:bg-[#00040f] selection:text-[#00f6ff]">
       <div className={`${styles.flexCenter}`}>
         <div
           className={`${styles.boxWidth} overflow-visible bg-primary xxl:overflow-hidden`}

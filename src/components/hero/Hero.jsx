@@ -26,17 +26,17 @@ export const Hero = ({ isOpen }) => (
       </div>
       <div className="md:[64px] text-[48px] font-bold leading-[140%] text-white ss:text-[56px]">
         <div className="flex items-center space-x-16">
-          <div className="flex flex-row flex-wrap ss:flex-col">
+          <div className="z-[2] flex flex-row flex-wrap ss:flex-col">
             <div className="whitespace-nowrap">The Next </div>
-            <div className="text-gradient mr-8"> Generation</div>
+            <div className="text-gradient mr-8 select-none"> Generation</div>
           </div>
           <div className="hidden cursor-pointer ss:block">
             <GetStarted />
           </div>
         </div>
-        <div> Payment Method.</div>
+        <div className="z-[2]"> Payment Method.</div>
       </div>
-      <div className={`${styles.paragraph} max-w-[500px]`}>
+      <div className={`${styles.paragraph} z-[2] max-w-[500px]`}>
         Our team of experts uses a methodology to identify the credit cards most
         likely to fit your needs. We examine annual percentage rates, annual
         fees.

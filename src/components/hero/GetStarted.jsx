@@ -10,7 +10,7 @@ export const GetStarted = () => (
     >
       <div className={`${styles.flexStart}`}>
         <div className="flex">
-          <p className="text-gradient font-medium">Get</p>
+          <p className="text-gradient select-none font-medium">Get</p>
           <img
             src={arrowUp}
             alt="arrow"
@@ -18,7 +18,7 @@ export const GetStarted = () => (
           />
         </div>
       </div>
-      <div className="text-gradient font-medium">Started</div>
+      <div className="text-gradient select-none font-medium">Started</div>
     </div>
   </div>
 );
